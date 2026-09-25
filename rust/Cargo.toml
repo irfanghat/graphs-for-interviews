@@ -1,0 +1,17 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2024"
+default-run = "adjacency_list"
+
+
+[[bin]]
+name = "edge_list"
+path = "src/edge_list/main.rs"
+
+
+[[bin]]
+name = "adjacency_list"
+path = "src/adjacency_list/main.rs"
+
+[dependencies]
